@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Conectando con google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <title>Tienda Kawai</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-principal">
+            <h1 class="logo">Tienda Kawai 🌸</h1>
+            <ul class="nav-lista">
+                <li><a href="#catalogo">Menú</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#entregas">Entregas</a></li>
+                <li><a href="#acerca">Acerca de</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="catalogo">
+            <h2>Catálogo de productos</h2>
+            <p>Encuentra los productos más kawaii para tu escritorio, tu cuarto y tus clases en línea.</p>
+
+            <div class="catalogo-contenedor">
+                <div class="producto-tarjeta">
+                    <img src="https://www.duckstore.es/img/cms/megamenu_deportes2.png" alt="Patito de hule" class="producto-img">
+                    <h3 class="producto-titulo">Patito de hule</h3>
+                    <p class="producto-desc">
+                        Patito coleccionable perfecto para decorar tu escritorio o tu bañera.
+                        Disponible en varios colores.
+                    </p>
+                    <p class="producto-precio">$79 MXN</p>
+                    <button class="producto-btn">Agregar al carrito</button>
+                </div>
+
+                <div class="producto-tarjeta">
+                    <img src="https://asset.action.com/image/upload/t_digital_product_image/w_1080/23189125.webp" alt="Washitape decorativo" class="producto-img">
+                    <h3 class="producto-titulo">Washitape kawaii</h3>
+                    <p class="producto-desc">
+                        Cinta decorativa para apuntes bonitos, bullet journal y planners.
+                        Incluye diseños pastel y personajes kawaii.
+                    </p>
+                    <p class="producto-precio">$55 MXN</p>
+                    <button class="producto-btn">Agregar al carrito</button>
+                </div>
+
+                <div class="producto-tarjeta">
+                    <img src="img/libretaperrito.jpg" alt="Libreta kawaii" class="producto-img">
+                    <h3 class="producto-titulo">Libreta</h3>
+                    <p class="producto-desc">
+                        Libreta tamaño A5 con hojas rayadas y portada pastel. Ideal para la escuela o la oficina.
+                    </p>
+                    <p class="producto-precio">$99 MXN</p>
+                    <button class="producto-btn">Agregar al carrito</button>
+                </div>
+
+                <div class="producto-tarjeta">
+                    <img src="img/plumas.jpg" alt="Pluma de gel kawaii" class="producto-img">
+                    <h3 class="producto-titulo">Plumas de gel</h3>
+                    <p class="producto-desc">
+                        Set de 6 plumas de gel en tonos pastel, punta fina, perfectas para subrayar y hacer apuntes lindos.
+                    </p>
+                    <p class="producto-precio">$89 MXN</p>
+                    <button class="producto-btn">Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="entregas">
+            <h2>Entregas y envíos</h2>
+            <p>Queremos que tus productos kawaii lleguen rápido y seguros. Así funcionan nuestras entregas:</p>
+            <ul>
+                <li><strong>Envíos nacionales:</strong> A todo México por paquetería (3 a 7 días hábiles).</li>
+                <li><strong>Envíos express:</strong> Disponible en zonas seleccionadas (1 a 2 días hábiles).</li>
+                <li><strong>Entrega local:</strong> Punto de entrega acordado en CDMX (sin costo extra).</li>
+                <li><strong>Seguimiento:</strong> Te enviamos tu número de guía por correo o WhatsApp.</li>
+            </ul>
+            <p><strong>Forma de pago:</strong> Transferencia, tarjeta de crédito/débito y algunas billeteras digitales.</p>
+        </section>
+
+        <section id="acerca">
+            <h2>Acerca de Tienda Kawai</h2>
+            <p>
+                Tienda Kawai nace del amor por la papelería bonita, los detalles especiales y el estilo
+                tierno que hace más ligeros los días de escuela, trabajo y estudio.
+            </p>
+            <p>
+                Seleccionamos productos funcionales pero estéticos, pensando en estudiantes, creadores de
+                contenido y personas que aman organizar su espacio con un toque pastel.
+            </p>
+        </section>
+
+        <section id="contacto" class="contacto-section">
+            <div class="contacto-contenido">
+                <h2>Contacto</h2>
+                <p>¿Tienes dudas sobre un producto, envíos o pedidos personalizados? Escríbenos.</p>
+
+                <p><strong>Correo:</strong> hola@tiendakawai.mx</p>
+                <p><strong>WhatsApp:</strong> +52 55 0000 0000</p>
+                <p><strong>Horario:</strong> Lunes a viernes 10:00 a 19:00 hrs.</p>
+            </div>
+
+            <aside class="contacto-aside">
+                <form class="form-contacto">
+                    <h3>Envíanos un mensaje</h3>
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Escribe tu nombre">
+
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" placeholder="correo@ejemplo.com">
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" rows="4" placeholder="Cuéntanos en qué podemos ayudarte"></textarea>
+
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tienda Kawai. Todos los derechos reservados.</p>
+        <p>Síguenos en redes: Instagram @tiendakawai · TikTok @tiendakawai</p>
+    </footer>
+</body>
+</html>
