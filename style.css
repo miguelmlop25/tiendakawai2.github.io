@@ -28,6 +28,18 @@ body{
 
 }
 
+section{
+    padding: 25px;
+}
+
+h2{
+    padding: 25px;
+}
+
+.nav-principal{
+    padding: 15px 25px;
+    background-color:darkgreen
+}
 /* #contacto{
     background-color: #f95c93;
     padding: 12px 14px 5px 8px;
