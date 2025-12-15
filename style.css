@@ -1,7 +1,50 @@
+/* RESET BASICO*/
+*{
+    margin: 5PX;
+    padding: 3PX;
+    box-sizing: border-box;
+}
+
+.nav-lista li a {
+    color: rgb(47, 235, 53);
+    text-decoration: none;
+    display: block;
+}
+
+li{
+    text-align: center;
+    color: white;
+    display: inline-block;
+    background-color: rgb(159, 161, 160);
+    padding: 10px;
+    border: 15px;
+    margin: 12px;
+}
+
 body{
   /* fuente traida desde google fonts */
   font-family: "Lexend", sans-serif;
+  background-color: rgb(108, 240, 141);
+
 }
+
+/* #contacto{
+    background-color: #f95c93;
+    padding: 12px 14px 5px 8px;
+
+    margin: 10px 10px 5px 10px;
+
+    /*
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+
+    margin-top: 10px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    margin-left: 2px; */ /* }
+*/
 
 /* TARJETA */
 .producto-tarjeta{
