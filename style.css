@@ -1,8 +1,24 @@
 /* RESET BASICO*/
 *{
     margin: 5PX;
-    padding: 3PX;
+    padding: 7PX;
     box-sizing: border-box;
+}
+
+body{
+  /* fuente traida desde google fonts */
+  font-family: "Lexend", sans-serif;
+  background-color: rgb(108, 240, 141);
+
+}
+
+section{
+    padding: 25px;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .nav-lista li a {
@@ -21,20 +37,10 @@ li{
     margin: 12px;
 }
 
-body{
-  /* fuente traida desde google fonts */
-  font-family: "Lexend", sans-serif;
-  background-color: rgb(108, 240, 141);
 
-}
 
-section{
-    padding: 25px;
-}
 
-h2{
-    padding: 25px;
-}
+
 
 .nav-principal{
     padding: 15px 25px;
