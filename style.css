@@ -105,13 +105,13 @@ li{
 .producto-precio{
     font-size: 18px;
     font-weight: bold;
-    color: #ff4b91;
+    color: #ff4b4b;
     margin-bottom: 10px;
 }
 
 /* BOTÓN */
 .producto-btn{
-    background: #f95c93;
+    background: #fd0303;
     color: white;
     border: none;
     padding: 10px 15px;
