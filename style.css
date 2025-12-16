@@ -64,7 +64,12 @@ li{
     margin-left: 2px; */ /* }
 */
 
-/* TARJETA */
+/*CONTENEDOR DE PRODUCTOS*/
+.catalogo-contenedor{
+    padding: 20px;
+}
+
+/* TARJETA DEL PRODUTO */
 .producto-tarjeta{
     background: #b7aeb5;
     border-radius: 15px;
@@ -124,4 +129,64 @@ li{
 
 .producto-btn:hover{
     background: #e00064;
+}
+
+/*SECCIONES GENERALES*/
+
+section{
+    padding: 25px;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ul{
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+li{
+    margin-bottom: 6px;
+}
+
+/* CONTACTO EN DOS COLUMNAS*/
+.contacto-section{
+    margin-top: 40px;
+}
+
+/*FORMULARIO*/
+.form-contacto{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/*INPUTS y textarea del formulario*/
+.form-contacto input,
+.form-contacto textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/*FOOTER*/
+footer{
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    background-color:antiquewhite;
+    color: #4b004b;
+}
+
+
+p{
+    color: #1d0e5a !important;
+}
+p{
+    color: greenyellow;
+}
+p{
+    color: #e04714;
 }
