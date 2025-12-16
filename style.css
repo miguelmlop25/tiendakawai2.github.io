@@ -48,20 +48,23 @@ h2{
 
 
 
-li{
+.nav-lista li{
     text-align: center;
     color: white;
     display: inline-block;
-    background-color: rgb(159, 161, 160);
-    padding: 10px;
-    border: 15px;
-    margin: 12px;
+    background-color: rgb(147, 204, 176);
+    padding: 5px;
+    border: 10px;
+    margin: 10px;
 }
 
-
-
-
-
+li{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    background-color: rgb(253, 253, 253);
+    padding: 10px;
+}
 
 
 /* #contacto{
@@ -96,7 +99,7 @@ li{
 }
 
 .nav-lista a:hover{
-    color: coral; /* COLOR CUANDO PASAS EL CURSOSR*/
+    color: rgb(255, 252, 251); /* COLOR CUANDO PASAS EL CURSOSR*/
 }
 
 /*CONTENEDOR DE PRODUCTOS*/
@@ -106,7 +109,7 @@ li{
 
 /* TARJETA DEL PRODUTO */
 .producto-tarjeta{
-    background: #b7aeb5;
+    background: #b0f018;
     border-radius: 15px;
     overflow: hidden;
     padding-bottom: 20px;
@@ -164,7 +167,7 @@ li{
 }
 
 .producto-btn:hover{
-    background: #e00064;
+    background: #510f2d;
 }
 
 .producto-badge{
