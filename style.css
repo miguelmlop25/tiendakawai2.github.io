@@ -9,11 +9,35 @@ body{
   /* fuente traida desde google fonts */
   font-family: "Lexend", sans-serif;
   background-color: rgb(108, 240, 141);
-
 }
 
-section{
-    padding: 25px;
+header, main{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-banner{
+    background-color: burlywood;
+    text-align: center;
+    padding: 6px 10px;
+    font-size: 14px;
+    color: yellowgreen;
+}
+
+.nav-principal{
+    background-color:darkgreen;
+    padding: 15px 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: sticky;   /*ESTE STICKY Y Z INDEX ME PERMITE HACER UN MENU FIJO*/
+    top: 0;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
 }
 
 h2{
@@ -21,11 +45,7 @@ h2{
     margin-bottom: 10px;
 }
 
-.nav-lista li a {
-    color: rgb(47, 235, 53);
-    text-decoration: none;
-    display: block;
-}
+
 
 li{
     text-align: center;
@@ -42,10 +62,7 @@ li{
 
 
 
-.nav-principal{
-    padding: 15px 25px;
-    background-color:darkgreen
-}
+
 /* #contacto{
     background-color: #f95c93;
     padding: 12px 14px 5px 8px;
@@ -64,6 +81,23 @@ li{
     margin-left: 2px; */ /* }
 */
 
+/*MENU DE NAVEGACION*/
+.nav-lista{
+    list-style: none;
+}
+
+/*ESTILOS DE LOS ENLACES DEL MENU*/
+.nav-lista a{
+    text-decoration: none;
+    color: #4b004b;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.nav-lista a:hover{
+    color: coral; /* COLOR CUANDO PASAS EL CURSOSR*/
+}
+
 /*CONTENEDOR DE PRODUCTOS*/
 .catalogo-contenedor{
     padding: 20px;
@@ -78,6 +112,7 @@ li{
     box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
     transition: transform .2s ease, box-shadow .2s ease;
     text-align: center;
+    position: relative; /*SE NECESITA PARA QUE ÑA PADGE ABSOLUTA SE POSCIONE DENTRO*/
 }
 
 .producto-tarjeta:hover{
@@ -131,8 +166,17 @@ li{
     background: #e00064;
 }
 
-/*SECCIONES GENERALES*/
+.producto-badge{
+    position: absolute;
+    background-color: greenyellow;
+    top: 15px;
+    left: 10px;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
 
+/*SECCIONES GENERALES*/
 section{
     padding: 25px;
 }
@@ -189,4 +233,25 @@ p{
 }
 p{
     color: #e04714;
+}
+
+/*BOTON FLOTANTE POSITION FIXED*/
+.boton-carrito{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: red;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 12px 20px;
+    color: white;
+    z-index: 1500px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    transition: .2s ease-in-out;
+}
+
+.boton-carrito:hover{
+    background-color: #691d04;
 }
