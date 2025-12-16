@@ -5,31 +5,37 @@
     box-sizing: border-box;
 }
 
+/* INICIO - PERSONALIZACION PARA MI PÁGINA*/
+
+
+
+
+/*FIN - PERSONALIZACION PARA MI PÁGINA*/
 body{
   /* fuente traida desde google fonts */
   font-family: "Lexend", sans-serif;
-  background-color: rgb(108, 240, 141);
+  background-color: white;
 }
 
 header, main{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1800px;
     margin: 0 auto;
 }
 
 .top-banner{
-    background-color: rgb(135, 222, 189);
+    background-color: purple;
     text-align: center;
     padding: 6px 10px;
     font-size: 14px;
-    color: yellowgreen;
     text-transform: capitalize;
+    color: white;
 }
 
 .nav-principal{
-    background-color:darkgreen;
+    background-color:yellow;
     padding: 15px 25px;
-    max-width: 1200px;
+    max-width: 1800px;
     margin: 0 auto;
     position: sticky;   /*ESTE STICKY Y Z INDEX ME PERMITE HACER UN MENU FIJO*/
     top: 0;
@@ -68,7 +74,7 @@ li{
     text-align: center;
     color: rgb(0, 0, 0);
     display: inline-block;
-    background-color: rgb(253, 253, 253);
+    background-color: lightblue;
     padding: 10px;
 }
 
