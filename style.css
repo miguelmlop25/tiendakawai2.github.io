@@ -7,10 +7,98 @@
 
 /* INICIO - PERSONALIZACION PARA MI PÁGINA*/
 
+.logo-mercado{
+    block-size: 60px;
+    text-align: center;
+    background-color: yellow;
+    text-align: left;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.top-banner p{
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+.barra-busqueda{
+    background-color: rgb(212, 132, 40);
+    padding: 0px;
+    display: inline-block;
+
+}
+
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; /* Centra verticalmente los elementos en el eje cruzado */
+  gap: 110px; /* Espacio entre elementos */
+  background-color: yellow;
+  padding: 10px;
+}
+
+.item1 {
+  background-color: white;
+  color: black;
+  padding: 0px;
+  text-align: center;
+  border-radius: 10px;
+  width: 500px; /* Ancho inicial */
+  height: 50px; /* Altura fija para mantener la forma */
+}
+
+.item2 {
+    background-color: rgb(18, 18, 137);
+    color: white;
+    padding: 13px;
+    text-align: center;
+    border-radius: 50px;
+    width: 400px;
+    height: 50px;
+    text-transform: uppercase;
+
+    display: flex;             /* Para centrar el texto verticalmente */
+    align-items: center;       /* Para centrar el texto verticalmente */
+    justify-content: center;   /* Para centrar el texto horizontalmente */
+    border-radius: 50px 0 0 50px;
+}
+
+.item3 {
+    background-color:white;
+    color: rgb(18, 18, 137);
+    padding: 13px;
+    text-align: center;
+    border-radius: 50px;
+    width: 400px;
+    height: 50px;
+    text-transform: uppercase;
+
+    display: flex;             /* Para centrar el texto verticalmente */
+    align-items: center;       /* Para centrar el texto verticalmente */
+    justify-content: center;   /* Para centrar el texto horizontalmente */
+
+    /*  Cuadrado a la izquierda, redondo a la derecha */
+    border-radius: 0 50px 50px 0;
+}
+
+
+.caja-oferta {
+    display: flex;
+    align-items: center;
+    gap: 0px !important;
+}
+
+
+
 
 
 
 /*FIN - PERSONALIZACION PARA MI PÁGINA*/
+
+
 body{
   /* fuente traida desde google fonts */
   font-family: "Lexend", sans-serif;
@@ -19,23 +107,21 @@ body{
 
 header, main{
     width: 100%;
-    max-width: 1800px;
     margin: 0 auto;
 }
 
 .top-banner{
-    background-color: purple;
+    background-color: rgb(177, 19, 177);
     text-align: center;
     padding: 6px 10px;
-    font-size: 14px;
+    font-size: 24px;
     text-transform: capitalize;
-    color: white;
 }
 
 .nav-principal{
     background-color:yellow;
     padding: 15px 25px;
-    max-width: 1800px;
+    max-width: 100%;
     margin: 0 auto;
     position: sticky;   /*ESTE STICKY Y Z INDEX ME PERMITE HACER UN MENU FIJO*/
     top: 0;
@@ -266,7 +352,7 @@ footer{
     color: #4b004b;
 }
 
-
+/*
 p{
     color: #1d0e5a !important;
 }
@@ -275,7 +361,7 @@ p{
 }
 p{
     color: #e04714;
-}
+}*/
 
 /*BOTON FLOTANTE POSITION FIXED*/
 .boton-carrito{
