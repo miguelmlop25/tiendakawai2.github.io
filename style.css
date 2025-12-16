@@ -23,6 +23,7 @@ header, main{
     padding: 6px 10px;
     font-size: 14px;
     color: yellowgreen;
+    text-transform: capitalize;
 }
 
 .nav-principal{
