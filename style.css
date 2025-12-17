@@ -18,9 +18,10 @@
 }
 
 .top-banner p{
-    font-family:Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     color: white;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .barra-busqueda{
@@ -99,7 +100,11 @@
     gap: 0px !important;
 }
 
-
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 0px !important
+}
 
 
 
@@ -108,7 +113,7 @@
 
 body{
   /* fuente traida desde google fonts */
-  font-family: "Lexend", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: white;
 }
 
@@ -128,7 +133,6 @@ header, main{
 .nav-principal{
     background-color:yellow;
     padding: 15px 25px;
-    max-width: 100%;
     margin: 0 auto;
     position: sticky;   /*ESTE STICKY Y Z INDEX ME PERMITE HACER UN MENU FIJO*/
     top: 0;
@@ -210,7 +214,7 @@ li{
 }
 
 .nav-lista a:hover{
-    color: rgb(212, 212, 2); /* COLOR CUANDO PASAS EL CURSOSR*/
+    color: rgba(212, 2, 2, 0.863); /* COLOR CUANDO PASAS EL CURSOSR*/
 }
 
 /*CONTENEDOR DE PRODUCTOS*/
@@ -226,7 +230,7 @@ li{
 
 /* TARJETA DEL PRODUTO */
 .producto-tarjeta{
-    background: #b0f018;
+    background: yellow;
     border-radius: 15px;
     overflow: hidden;
     padding-bottom: 20px;
@@ -268,7 +272,7 @@ li{
 .producto-precio{
     font-size: 18px;
     font-weight: bold;
-    color: #ff4b4b;
+    color: green;
     margin-bottom: 10px;
 }
 
