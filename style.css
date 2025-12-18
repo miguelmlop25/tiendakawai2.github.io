@@ -6,7 +6,6 @@
 }
 
 /* INICIO - PERSONALIZACION PARA MI PÁGINA*/
-
 .logo-mercado{
     block-size: 60px;
     text-align: center;
@@ -106,10 +105,41 @@
     gap: 0px !important
 }
 
-
-
 /*FIN - PERSONALIZACION PARA MI PÁGINA*/
 
+/*INICIO PERSONALIZACION PARTE II*/
+.container-portada{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.fondo{
+    width: 100%;
+}
+
+.contenedor-compra {
+    display: flex;
+    flex-direction: column; /* Pone la imagen arriba del botón */
+    align-items: center;    /* Centra ambos horizontalmente */
+    gap: 8px;              /* Espacio entre la imagen y el botón */
+    margin-top: 10px;       /* Separa el bloque del precio */
+}
+
+.full {
+    width: 250px;           /* Ajusta este ancho según el tamaño de tu botón */
+    height: auto;           /* Mantiene la proporción (quita el height: 5% que tenías) */
+    object-fit: contain;    /* Evita que la imagen se deforme */
+}
+
+
+
+
+
+
+
+/*FIN PERSONALIZACION*/
 
 body{
   /* fuente traida desde google fonts */
@@ -214,7 +244,7 @@ li{
 }
 
 .nav-lista a:hover{
-    color: rgba(212, 2, 2, 0.863); /* COLOR CUANDO PASAS EL CURSOSR*/
+    color: blue; /* COLOR CUANDO PASAS EL CURSOSR*/
 }
 
 /*CONTENEDOR DE PRODUCTOS*/
@@ -230,7 +260,7 @@ li{
 
 /* TARJETA DEL PRODUTO */
 .producto-tarjeta{
-    background: yellow;
+    background: white;
     border-radius: 15px;
     overflow: hidden;
     padding-bottom: 20px;
@@ -265,20 +295,20 @@ li{
 
 .producto-desc{
     font-size: 14px;
-    color: #6d4c41;
+    color: black;
     margin: 10px 15px;
 }
 
 .producto-precio{
     font-size: 18px;
     font-weight: bold;
-    color: green;
+    color: black;
     margin-bottom: 10px;
 }
 
 /* BOTÓN */
 .producto-btn{
-    background: #fd0303;
+    background: #0f7bff;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -290,12 +320,12 @@ li{
 }
 
 .producto-btn:hover{
-    background: #510f2d;
+    background: #28aef0;
 }
 
 .producto-badge{
     position: absolute;
-    background-color: greenyellow;
+    background-color: rgb(21, 38, 224);
     top: 15px;
     left: 10px;
     color: white;
