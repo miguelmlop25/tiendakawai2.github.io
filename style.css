@@ -121,21 +121,48 @@
 
 .contenedor-compra {
     display: flex;
-    flex-direction: column; /* Pone la imagen arriba del botón */
-    align-items: center;    /* Centra ambos horizontalmente */
-    gap: 8px;              /* Espacio entre la imagen y el botón */
-    margin-top: 10px;       /* Separa el bloque del precio */
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
 }
 
 .full {
-    width: 250px;           /* Ajusta este ancho según el tamaño de tu botón */
-    height: auto;           /* Mantiene la proporción (quita el height: 5% que tenías) */
-    object-fit: contain;    /* Evita que la imagen se deforme */
+    width: 250px;
+    height: auto;
+    object-fit: contain;
 }
 
+.beneficios {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 40px 20px;
+}
 
+.item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: auto;
+    max-width: 350px;
+    text-align: left;
+}
 
-
+.icono-beneficio {
+    width: 60px;
+    height: 60px;
+    background-color: #f5f0ff;
+    border-radius: 10px;
+    padding: 12px;
+    object-fit: contain;
+}
 
 
 
