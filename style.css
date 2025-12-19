@@ -446,8 +446,8 @@ footer{
     text-align: center;
     padding: 15px;
     margin-top: 30px;
-    background-color:antiquewhite;
-    color: #4b004b;
+    background-color:rgb(235, 234, 232);
+    color: #000000;
 }
 
 /*
@@ -505,7 +505,7 @@ p{
 }
 
 .equipo-card{
-    background-color: #ccc;
+    background-color: #ffffff;
     width: 280px;
     padding: 60px 20px 30px;
     border-radius: 20px;
@@ -524,8 +524,7 @@ p{
     width: 130px;   /*ANCHO Y ALTO DE LA FOTO Y OBJECT FIT PARA QUE SE VEAN BIEN*/
     height: 130px;
     object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid white;
+    border: 2px solid white;
 
     position: absolute;
     top: -55px;
@@ -548,7 +547,9 @@ p{
 
 .equipo-desc{
     font-size: 14px;
-    color: #691d04;
+    margin: 5px;
+    padding: 5px;
+    color: #000000;
     line-height: 1;
 }
 
