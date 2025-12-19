@@ -164,6 +164,36 @@
     object-fit: contain;
 }
 
+#entregas li{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #1a4fef !important;
+    color: white;
+}
+
+.categorias{
+    background-color: #ffffff;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.items{
+    flex-direction: row;
+    background-color:#0f7bff;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 9px;
+
+}
+
+#acerca{
+    text-align: center;
+}
+
 
 
 /*FIN PERSONALIZACION*/
